@@ -6,7 +6,7 @@ import ListaDeNotas from "./components/listadenotas/ListaDeNotas"
 class App extends Component{
   render(){
     return (
-      <section>
+      <section className="conteudo">
         <FormularioCadastro/>
         <ListaDeNotas/>
       </section>
