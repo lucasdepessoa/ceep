@@ -1,0 +1,34 @@
+.form-cadastro {
+  background:#fff;
+  display: inline-block;
+  margin-right:20px;
+  margin-left:20px;
+  margin-top:20px;
+  padding-right:80px;
+  height:300px;
+}
+
+.form-titulo{
+  display: block;
+  width:100%;
+  margin:2px;
+  font-size:18px;
+  background: rgba(0,0,0,0.1);
+}
+
+.form-text{
+  display: block;
+  width:100%;
+  margin:2px;
+  resize: none;
+  font-size:14px;
+}
+
+.form-button{
+  margin-top:4px;
+  width:120px;
+  height:40px;
+  font-size:14px;
+  font-family: calibri;
+  display: block;
+}
