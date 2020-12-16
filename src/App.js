@@ -13,6 +13,15 @@ class App extends Component{
     }
   }
 
+  NoteDelete(index){
+    
+    let arrayNotes = this.state.notes
+    arrayNotes.splice(index,1)
+
+    this.setState({notes:arrayNotes})
+    
+  }
+
   NoteCreate(title, text){
     const newNote = {title,text}
     
@@ -30,6 +39,7 @@ class App extends Component{
       <section className="conteudo">
         <FormularioCadastro CreateNota={this.NoteCreate.bind(this)}/>
         <ListaDeNotas
+          noteDelete={this.NoteDelete.bind(this)}
           notes={this.state.notes}
         />
       </section>
